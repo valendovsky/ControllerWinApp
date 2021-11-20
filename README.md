@@ -1,5 +1,6 @@
 # ControllerWinApp
 Application controller for Windows.
+
 The program works in Windows OS. The program controls the uninterrupted operation of the selected application. It checks at a specified period of time that the process is running. If the program does not find the process in running, the program restarts this application. When the program re-launches the application of the temporary check interval is less than standard. If the program launches the application several times in a row, then the time interval begins to increase to the standard. If the application is running, then the next check will take place after the time interval specified by the user.
 Use the "tasklist" command to check the running processes. The program starts with command line arguments:
 1 - name of the controlled process.
